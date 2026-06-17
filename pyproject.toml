@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "firmware-mcp-server"
+version = "1.0.0"
+description = "Local stdio MCP server for embedded firmware automation."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [
+  { name = "LJN" }
+]
+keywords = [
+  "mcp",
+  "firmware",
+  "embedded",
+  "automation",
+  "serial",
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Topic :: Software Development :: Embedded Systems",
+  "Topic :: System :: Hardware",
+]
+dependencies = [
+  "mcp>=1.2.0",
+  "pyserial==3.5",
+]
+
+[project.urls]
+Homepage = "https://github.com/Alooswr/firmware-mcp-server"
+Repository = "https://github.com/Alooswr/firmware-mcp-server"
+Issues = "https://github.com/Alooswr/firmware-mcp-server/issues"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
