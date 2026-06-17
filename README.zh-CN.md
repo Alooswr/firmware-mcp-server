@@ -2,6 +2,10 @@
 
 [English](README.md)
 
+<p align="center">
+  <img src="assets/mascot-catgirl.jpg" alt="Firmware MCP Server 猫娘吉祥物" width="320">
+</p>
+
 Firmware MCP Server 是一个本地 stdio MCP 服务器，用于嵌入式固件自动化。它通过本地设备配置文件暴露一组小而明确的 MCP 工具，让客户端可以构建固件、烧录设备、复位设备，并采集带时间戳的串口日志。
 
 这个项目面向本机工作站自动化场景：不启动 HTTP 服务，不通过 shell 执行命令，并默认把本机设备路径排除在版本控制之外。
@@ -355,3 +359,5 @@ git status --ignored --short
 ## 许可证
 
 本项目使用 [MIT License](LICENSE)。
+
+图片资产的说明见 [ASSETS.md](ASSETS.md)。

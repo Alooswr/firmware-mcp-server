@@ -2,6 +2,10 @@
 
 [中文文档](README.zh-CN.md)
 
+<p align="center">
+  <img src="assets/mascot-catgirl.jpg" alt="Firmware MCP Server mascot" width="320">
+</p>
+
 Firmware MCP Server is a local stdio MCP server for embedded firmware automation.
 It exposes a small set of tools that let an MCP client build firmware, flash
 devices, reset devices, and collect timestamped serial logs through commands
@@ -370,3 +374,5 @@ opening a pull request.
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+Image assets are documented separately in [ASSETS.md](ASSETS.md).
